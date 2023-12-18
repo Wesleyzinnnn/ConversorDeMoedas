@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.input-number{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.selected-moeda{
+    width: 375px;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.div-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    margin-top: 17px;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.button-converter{
+    width: 380px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: mediumblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
